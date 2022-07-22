@@ -1,0 +1,27 @@
+nav {
+	background-color: #323234;
+	// background-image: linear-gradient(#091970, #0968e5);
+	// background-image: url(../public/assets/blue5.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	a {
+		color: white;
+	}
+}
+
+@media (max-width: 768px) {
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+
+		a {
+			display: none;
+		}
+	}
+}
